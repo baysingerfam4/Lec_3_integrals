@@ -73,16 +73,7 @@ namespace Lec_3_integrals
 
         public static void Part2()
         {
-           
-            
-            //Cost for a batch of cookies: $48
-            //Total cookies in 5 batches: 120
-            //Total cost for 5 batches of cookies: $240
-            //Number of cookies given away: 10
-            //Cost of cookies given away: $20
-            //Number of cookies thrown away: 8
-            //Cost of cookies thrown away: $16
-            //Total earnings after giving away and throwing away some cookies: $204
+                       
             int cookies = 2;
             int bat = 24;
             int batcost = 48;
@@ -96,6 +87,14 @@ namespace Lec_3_integrals
             Console.WriteLine($"Samantha runs a small bakery.In one day, she bakes 5 batches of cookies, with each batch containing 24 cookies.She sells each cookie for $2.At the end of the day, she gives away 10 cookies to her neighbors and had to throw away 8 cookies that were accidentally burnt.How much money did Samantha make from selling the cookies after giving away and throwing away some of them");
             Console.WriteLine($"Cost of a single cookie: {cookies}")
             Console.WriteLine($"Number of cookies in a batch: {bat}")
+            Console.WriteLine($"Cost for a batch of cookies: {batcost}")
+            Console.WriteLine($"Total cookies in 5 batches: {q5}")
+            Console.WriteLine($"Total cost for 5 batches of cookies: {batcost}")
+            Console.WriteLine($"Number of cookies given away: {cga}")
+            Console.WriteLine($"Cost of cookies given away: {cgacost}")
+            Console.WriteLine($"Number of cookies thrown away: {cookiesthrown})
+            Console.WriteLine($"Cost of cookies thrown away: {coothrocost}")
+            Console.WriteLine($"Total earnings after giving away and throwing away some cookies: $204")
             Console.WriteLine($"{q5} - {cga} - {cookiesthrown} * {cookies}");
 
         }
