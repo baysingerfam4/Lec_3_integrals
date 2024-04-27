@@ -12,6 +12,10 @@ namespace Lec_3_integrals
     {
         static void Main(string[] args)
         {
+            // Carla Baysinger
+            // Integrals Practice
+            // April 20th 2024
+
             Part1(); // Method Call
             Part2(); // Method Call
 
@@ -66,12 +70,11 @@ namespace Lec_3_integrals
 
             Console.WriteLine($"Your number is {num1}");
         }
-        
+
         public static void Part2()
         {
-            //Samantha runs a small bakery.In one day, she bakes 5 batches of cookies, with each batch containing 24 cookies.She sells each cookie for $2.At the end of the day, she gives away 10 cookies to her neighbors and had to throw away 8 cookies that were accidentally burnt.How much money did Samantha make from selling the cookies after giving away and throwing away some of them ?
-            //Cost of a single cookie: $2
-            //Number of cookies in a batch: 24
+           
+            
             //Cost for a batch of cookies: $48
             //Total cookies in 5 batches: 120
             //Total cost for 5 batches of cookies: $240
@@ -89,7 +92,11 @@ namespace Lec_3_integrals
             int cgacost = 20;
             int cookiesthrown = 8;
             int coothrocost = 16;
-            Console.WriteLine($"bat * 5 - cga - cookiesthrown * cookies");
+          
+            Console.WriteLine($"Samantha runs a small bakery.In one day, she bakes 5 batches of cookies, with each batch containing 24 cookies.She sells each cookie for $2.At the end of the day, she gives away 10 cookies to her neighbors and had to throw away 8 cookies that were accidentally burnt.How much money did Samantha make from selling the cookies after giving away and throwing away some of them");
+            Console.WriteLine($"Cost of a single cookie: {cookies}")
+            Console.WriteLine($"Number of cookies in a batch: {bat}")
+            Console.WriteLine($"{q5} - {cga} - {cookiesthrown} * {cookies}");
 
         }
 
